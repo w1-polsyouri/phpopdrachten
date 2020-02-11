@@ -1,0 +1,21 @@
+header
+{
+    text-align: right;
+    background-color: #F0F8FF;
+    width: 100%;
+}
+
+aside
+{
+    background-color: #F5F5DC;
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+
+#wrapper
+{
+    display: inline-block;
+    float: right;
+    width: 50%;
+}
