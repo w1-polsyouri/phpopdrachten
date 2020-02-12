@@ -2,7 +2,9 @@ header
 {
     text-align: right;
     background-color: #F0F8FF;
-    width: 100%;
+    width: 98%;
+    padding: 15px;
+    color: black;
 }
 
 aside
@@ -18,4 +20,5 @@ aside
     display: inline-block;
     float: right;
     width: 50%;
+    background-color: white;
 }
