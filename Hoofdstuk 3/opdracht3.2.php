@@ -93,6 +93,18 @@
         {
             echo("<p> Je mag hier sterke alcohol drinken </p>");
         }
+        elseif ($countryName == "Cyprus" && $currentAge >= 17)
+        {
+            echo ("<p> Je mag hier sterke alcohol drinken </p>");
+        }
+        elseif ($countryName == "Zweden" && $currentAge >= 18)
+        {
+            echo ("<p> Je mag hier zwakke alcohol drinken </p>");
+        }
+        elseif ($countryName == "Zweden" && $currentAge >= 20)
+        {
+            echo ("<p> Je mag hier sterke alcohol drinken </p>");
+        }
         else
         {
             echo("<p> hier mag je GEEN alcohol drinken</p>");
