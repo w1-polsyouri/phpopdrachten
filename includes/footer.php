@@ -7,7 +7,28 @@
  */
 ?>
 <?php
-    echo("<footer>");
-    echo("&copy; 2020");
-    echo("</footer>");
+
+date_default_timezone_set("Europe/Amsterdam");
+$uur = date("H");
+$greeting = "onbekend";
+if($uur <= 5)
+{
+   $greeting = "Goedenacht";
+}
+elseif ($uur <= 12)
+{
+    $greeting = "Goedenochtend";
+}
+elseif ($uur <= 17)
+{
+    $greeting = "Goedenmiddag";
+}
+else
+{
+    $greeting = "Goedenavond";
+}
+
+echo("<footer>");
+echo($greeting . "&copy; 2020");
+echo("</footer>");
 ?>

@@ -13,7 +13,7 @@
     </head>
     <body>
     <?php
-    include("includes/header.php");
+    include("../includes/header.php");
     ?>
     <aside>
         <h2>Menu</h2>
@@ -40,7 +40,9 @@
         <main id="wrapper">
             <h2>Uitwerkingen</h2>
         </main>
-
+    <?php
+    include("../includes/footer.php");
+    ?>
     </body>
 </html>
 

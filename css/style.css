@@ -1,12 +1,10 @@
-
-header, footer
+header
 {
     text-align: right;
     background-color: #F0F8FF;
     width: 98%;
     padding: 15px;
     color: black;
-    display: block;
 }
 aside
 {
@@ -16,9 +14,22 @@ aside
     width: 50%;
 }
 
-#wrapper {
+#wrapper
+{
     display: inline-block;
     float: right;
     width: 50%;
     background-color: white;
+}
+
+footer
+{
+    text-align: right;
+    background-color: #F0F8FF;
+    padding: 15px;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    width: 97%;
+    height: 2.5rem;
 }

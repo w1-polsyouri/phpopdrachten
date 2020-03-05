@@ -77,13 +77,17 @@
     <?php
         //deel 2
         $countryName = "Nederland";
-        $currentAge = 16;
+        $currentAge = 22;
         // tonen algemene gegevens
         echo("<p> je woont in " . $countryName . " en je bent " . $currentAge . " jaar oud </p>");
 
         if($countryName == "België" && $currentAge >= 16 && $currentAge < 18)
         {
             echo("<p>je mag zwakke alcohol drinken</p>");
+        }
+        elseif ($countryName == "Nederland" && $currentAge >= 18)
+        {
+            echo("<p> Je mag hier drinken");
         }
         elseif ($countryName == "België" && $currentAge >= 18)
         {

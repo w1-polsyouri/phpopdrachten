@@ -44,31 +44,14 @@ include("../includes/header.php");
 <main id="wrapper">
     <h2>Uitwerkingen</h2>
     <?php
-    date_default_timezone_set("Europe/Amsterdam");
-    $uur = date("H");
-    if($uur <= 5)
-    {
-        echo("<footer> Goedennacht </footer>");
-    }
-    elseif ($uur <= 12)
-    {
-        echo("<footer>Goedenochtend</footer>");
-    }
-    elseif ($uur <= 17)
-    {
-        echo("<footer>Goedenmiddag</footer>");
-    }
-    else
-    {
-        echo("<footer>Goedenavond</footer>");
-    }
+
 
     ?>
 </main>
-<footer>
+
 <?php
 include("../includes/footer.php");
 ?>
-</footer>
+
 </body>
 </html>
