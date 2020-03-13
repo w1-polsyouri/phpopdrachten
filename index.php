@@ -52,10 +52,10 @@
                                 <a href="Hoofdstuk%204/4.2/script.php">Opdracht 4.2</a>
                             </li>
                             <li>
-                                <a href="#">Opdracht 4.3</a>
+                                <a href=Hoofdstuk%204/4.3/opdracht_4.3.php">Opdracht 4.3</a>
                             </li>
                             <li>
-                                <a href="#">Opdracht 4.3</a>
+                                <a href="Hoofdstuk%204/4.4/opdracht44.php">Opdracht 4.3</a>
                             </li>
                         </ul>
                     </li>

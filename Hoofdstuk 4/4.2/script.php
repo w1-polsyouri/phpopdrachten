@@ -70,13 +70,13 @@ include("../../includes/header.php");
                     <a href="#">Opdracht 4.2</a>
                 </li>
                 <li>
-                    <a href="#">Opdracht 4.3</a>
+                    <a href="../4.3/script.php">Opdracht 4.3</a>
                 </li>
                 <li>
-                    <a href="#">Opdracht 4.4</a>
+                    <a href="../4.4/opdracht44.php">Opdracht 4.4</a>
                 </li>
                 <li>
-                    <a href="../../index.php">terug naar de hoofdpagina</a>
+                        <a href="../../index.php">terug naar de hoofdpagina</a>
                 </li>
             </ul>
         </li>

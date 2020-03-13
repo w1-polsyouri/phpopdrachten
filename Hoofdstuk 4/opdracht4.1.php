@@ -27,10 +27,10 @@ include("../includes/header.php");
                     <a href="4.2/script.php">Opdracht 4.2</a>
                 </li>
                 <li>
-                    <a href="#">Opdracht 4.3</a>
+                    <a href="4.3/opdracht_4.3.php">Opdracht 4.3</a>
                 </li>
                 <li>
-                    <a href="#">Opdracht 4.4</a>
+                    <a href="4.4/opdracht44.php">Opdracht 4.4</a>
                 </li>
                 <li>
                     <a href="../index.php">Terug naar hoofdpagina</a>
