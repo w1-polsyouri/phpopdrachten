@@ -11,6 +11,14 @@
     <title>Mij PHP opdrachten</title>
     <link rel="stylesheet" type="text/css" href="../../css/style.css">
     <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 5px;
+            text-align: left;
+        }
     </style>
 </head>
 <body>
@@ -26,7 +34,7 @@ include("../../includes/header.php");
                     <a href="#">Opdracht 5.1</a>
                 </li>
                 <li>
-                    <a href="../5.2/opdracht5.2.php">Opdracht 5.2</a>
+                    <a href="#">Opdracht 5.2</a>
                 </li>
                 <li>
                     <a href="#">Opdracht 5.3</a>
@@ -48,47 +56,62 @@ include("../../includes/header.php");
 
     <table style="width:100%">
         <tr>
-            <td>bedrijfsnaam:</td>
+            <td>naam:</td>
             <td>    <?php
-                echo $_GET["nameCompany"];
+                echo $_GET["firstName"];
                 ?>
             </td>
         </tr>
         <tr>
-            <td>voornaam:</td>
+            <td>studentennummer:</td>
             <td>    <?php
-                echo $_GET["nameFirst"];
+                echo $_GET["studentNumber"];
                 ?>
             </td>
         </tr>
         <tr>
-            <td>achternaam::</td>
+            <td>datum:</td>
             <td>    <?php
-                echo $_GET["nameLast"];
+                echo $_GET["date"];
                 ?>
             </td>
         </tr>
         <tr>
-            <td>Telefoon:</td>
+            <td>reden van uitschrijving:</td>
             <td>    <?php
-                echo $_GET["Tel"];
+                echo $_GET["reason"];
                 ?>
             </td>
         </tr>
         <tr>
-            <td>Email:</td>
+            <td>leerjaar:</td>
             <td>    <?php
-                echo $_GET["Email"];
+                echo $_GET["leerjaar"];
                 ?>
             </td>
         </tr>
         <tr>
-            <td>Bericht:</td>
+            <td>naar succesklas:</td>
             <td>    <?php
-                echo $_GET["Message"];
+                echo $_GET["succesKlas"];
                 ?>
             </td>
         </tr>
+        <tr>
+            <td>gegevens verwijderen:</td>
+            <td>    <?php
+                echo $_GET["gegevens"];
+                ?>
+            </td>
+        </tr>
+        <tr>
+            <td>reden uitschrijving:</td>
+            <td>    <?php
+                echo $_GET["reasonLeave"];
+                ?>
+            </td>
+        </tr>
+
     </table>
 
 </main>
@@ -99,4 +122,5 @@ include("../../includes/footer.php");
 
 </body>
 </html>
+
 
