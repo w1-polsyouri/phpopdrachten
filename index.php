@@ -76,6 +76,23 @@
                             </li>
                         </ul>
                     </li>
+                    <li>Hoofdstuk 6
+                        <ul>
+                            <li>
+                                <a href="#">Opdracht 6.1</a>
+                            </li>
+                            <li>
+                                <a href="#">Opdracht 6.2</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Eindopdracht
+                        <ul>
+                            <li>
+                                <a href="eindopdracht/login.php">Eindopdracht</a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </aside>
 
