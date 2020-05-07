@@ -5,6 +5,8 @@
  * Time: 12:09 PM
  * File: index.php
  */
+
+
 ?>
 
 
@@ -69,10 +71,13 @@ include("../../includes/header.php");
     $opties = array("steen","papier","schaar");
     $computerkeuzegetal = rand(0,2);
     $computerkeuze = $opties[$computerkeuzegetal];
-    $_SESSION['user1'] = 0;
-    $_SESSION['user2'] = 0;
-    echo "&nbsp;&nbsp;De computer koos: <img src='../images/{$computerkeuze}.jpg'>";
 
+    echo "&nbsp;&nbsp;De computer koos: <img src='../images/{$computerkeuze}.jpg'>";
+    if(isset($_SESSION['user1']) == true && isset($_SESSION['user2']) == true)
+    {
+        $_SESSION['user1'] = 0;
+        $_SESSION['user2'] = 0;
+    }
 
     if (isset($_GET['schaar'])) {
         if($computerkeuze == "steen")
